@@ -1,0 +1,31 @@
+GET https://localhost:5001/weatherforecast
+Accept: application/json
+
+### 
+
+GET https://localhost:5001/summaries
+Accept: application/json
+
+### 
+
+POST  https://localhost:5001/summaries
+Content-Type: application/json
+
+"Better"
+
+###
+
+PUT  https://localhost:5001/summaries
+Content-Type: application/json
+
+{
+    "old": "Freezing",
+    "new": "Brrrr"
+}
+
+###
+
+DELETE  https://localhost:5001/summaries
+Content-Type: application/json
+
+"Freezing"
